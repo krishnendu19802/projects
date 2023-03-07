@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class="mainarea">
+            <!-- <p></p> -->
+            <div class="tfield" id="displayarea"></div>
+            <div class="buttons" id="buttons">
+                <button id="1" onclick="funcnum(1)">1</button>
+                <button id="2" onclick="funcnum(2)">2</button>
+                <button id="3" onclick="funcnum(3)">3</button>
+                <button id="clear" onclick="clearfunc()">clear</button>
+ 
+                <button id="4" onclick="funcnum(4)">4</button>
+                <button id="5" onclick="funcnum(5)">5</button>
+                <button id="6" onclick="funcnum(6)">6</button>
+                <button id="dellast" onclick="dellast()"><--</button>
+                
+                <button id="7" onclick="funcnum(7)">7</button>
+                <button id="8" onclick="funcnum(8)">8</button>
+                <button id="9" onclick="funcnum(9)">9</button>
+                <button id="add" onclick="funcsymb('+')">+</button>
+                <button id="divide" onclick="funcsymb('/')">/</button>
+                <button id="0" onclick="funcnum(0)">0</button>
+                
+                <button id="mult" onclick="funcsymb('*')">*</button>
+                <button id="sub" onclick="funcsymb('-')">-</button>
+                <button id="rem" onclick="funcsymb('%')">% </button>
+                <button id="startbrac" onclick="funcsymb('(')"">(</button>
+                <button id="endbrac" onclick="funcsymb(')')"">)</button>
+                <button id="equals" onclick="equalfunc()">=</button>
+
+                
+
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
