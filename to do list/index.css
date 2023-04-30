@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_area{
+    margin: 100px auto;
+    padding: 20px;
+    width: 80%;
+    min-height: 300px;
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(85, 85, 2);
+    
+    
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+
+}
+
+
+.add-div input{
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: width 1s ease;
+    
+
+}
+.add-div input:hover{
+    background-color: grey;
+    /* color: white; */
+    cursor: pointer;
+    width: 80%;
+}
+.add-div input:focus{
+    background-color: black;
+    color: white;
+    width: 80%;
+
+    background-color: black;
+}
+
+
+.add-div .add-button{
+    width: 10%;
+    height: 45px;
+    margin-left: 30px;
+    margin-right: 0;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: aqua;
+    font-size: 2em;
+    color: purple;
+    box-shadow: 2px 2px rgba(0, 0, 50, 0.822);
+    transition: transform 0.5s ease;
+}
+.add-div .add-button:hover{
+    background-color: blue;
+    color: aliceblue;
+    transform: scaleX(1.2) scaleY(1.2);
+
+}
+.add-div .add-button:active{
+    background-color: black;
+    color: aliceblue;
+}
+hr{
+    height: 2px;
+    background-color: black;
+    border-color: black;
+    border-radius: 2px;
+    /* margin-bottom: 20px; */
+
+}
+.list-div{
+    margin-top: 20px;
+    margin-left: 0;
+}
+ul{
+    list-style-type: none;
+    /* margin-left: 0; */
+    padding-left: 0;
+}
+.task-item{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px rgb(66, 66, 1);
+    background-color: wheat;
+    border-radius: 5px;
+    
+
+    transition:transform 0.5s ease,opacity 2s ease, text-decoration 1s ease  ;
+}
+.task-item:hover{
+    /* width: 110%; */
+    /* height: 50px; */
+     transform: scaleX(1.1) scaleY(1.3);
+     /* transform: ; */
+    background-color: rgb(196, 135, 21);
+    margin-left: 0;
+    /* align: center; */
+    font-size: 1.5em;
+
+}
+.item{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+
+}
+.item button{
+    height: 100%;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    width: 10%;
+    border-radius: 5px;
+    margin-top: 3px;
+    transition: transform 0.5s ease,margin-right 0.5s ease;
+}
+.item button:hover{
+    background-color: red;
+    /* transform: scaleX(1.2); */
+    transform: scaleX(1.2) scaleY(1.2);
+    margin-right: 10px;
+    
+}
+
+.item button:active{
+    background-color: black;
+}
+.removing{
+    text-decoration:line-through;
+   opacity:0;
+}
+
