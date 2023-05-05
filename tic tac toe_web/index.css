@@ -1,0 +1,80 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.main_area{
+    margin-top: 100px;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+    width: 500px;
+    /* background-color: wheat; */
+    /* display: ; */
+    /* justify-content: center; */
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+.game_area,.display_board{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* width: 50%; */
+    /* height: 100%; */
+}
+.display_board{
+    height: 100px;
+    padding-top: 20px;
+    font-size: 3em;
+    /* background-color: yellow; */
+}
+/* .game_area:hover{
+    background-color: gray;
+} */
+.game_area{
+    /* background-color: wheat; */
+}
+.btn_tab{
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    background-color: rgb(195, 155, 255);
+    border-radius: 5px;
+    margin: 0;
+    color: black;
+    /* text-shadow: 2px 0px blue; */
+}
+.btn_tab:hover{
+    background-color:rgb(134, 77, 219) ;
+}
+.btn_tab:active{
+    background-color: rgb(77, 34, 141);
+    color: wheat;
+}
+
+.Announcement{
+    height: 300px;
+    width: 100%;
+    background-color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    box-shadow: 2px 2px rgb(168, 168, 22);
+    /* display: flex; */
+    font-size: 3em;
+    /* overflow: hidden; */
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+a{    
+    margin-top: 200px;
+    display: inline;
+    color: black;
+    text-decoration: none;
+    
+}
+
